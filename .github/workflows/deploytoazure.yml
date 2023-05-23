@@ -10,7 +10,7 @@ on:
     branches: [ "master" ]
 env:
   AZURE_WEBAPP_PACKAGE_PATH: '.'
-  AZURE_WEBAPP_NAME: githubactiondemotm
+  AZURE_WEBAPP_NAME: GithubActionDemoTM
   
 jobs:
   build:
