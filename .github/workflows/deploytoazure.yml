@@ -28,7 +28,7 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release
     - name: Publish
-      run: dotnet pulish -c Release -o '${{env.AZURE_WEBAPP_PACKAGE_PATH}}/myapp'
+      run: dotnet publish -c Release -o '${{env.AZURE_WEBAPP_PACKAGE_PATH}}/myapp'
     
     - name: Deploy
       uses: Azure/webapps-deploy@v2.2.10
